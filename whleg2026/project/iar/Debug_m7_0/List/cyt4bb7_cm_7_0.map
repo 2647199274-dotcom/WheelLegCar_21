@@ -1,0 +1,1344 @@
+###############################################################################
+#
+# IAR ELF Linker V9.40.1.364/W64 for ARM                  28/Feb/2026  20:10:55
+# Copyright 2007-2023 IAR Systems AB.
+#
+#    Output file  =
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Exe\cyt4bb7_cm_7_0.out
+#    Map file     =
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\List\cyt4bb7_cm_7_0.map
+#    Command line =
+#        -f
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Exe\cyt4bb7_cm_7_0.out.rsp
+#        (E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\code_17896468042025673432.dir\Attitude.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\user_8514941877209965082.dir\cm7_0_isr.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\code_17896468042025673432.dir\control.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\adc_11722776235721520015.dir\cy_adc.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\button_4990804375159372270.dir\cy_button.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\canfd_1800690984773873875.dir\cy_canfd.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\cpu_15938736945165268644.dir\cy_cpu.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\crypto_1190170608956581615.dir\cy_crypto_config.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\eth_phy_18133017486186456677.dir\cy_dp83867.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\ethernet_6029839089178797009.dir\cy_ethif.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\evtgen_3404189088603873129.dir\cy_evtgen.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\flash_8529866181315662935.dir\cy_flash.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\gpio_3999404635324069351.dir\cy_gpio.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\audioss_1346650047966882938.dir\cy_i2s.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\rev_b_6162237342861132223.dir\cy_interrupt_map.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\ipc_10145506163450686023.dir\cy_ipc_drv.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\ipc_10145506163450686023.dir\cy_ipc_pipe.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\ipc_10145506163450686023.dir\cy_ipc_sema.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\lin_18429031207028094880.dir\cy_lin.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\lvd_6353935867039560245.dir\cy_lvd.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\mcwdt_4052485907822033969.dir\cy_mcwdt.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\dma_12106025507578611576.dir\cy_mdma.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\mpu_5663187252346826382.dir\cy_mpu.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\flash_864493325053435817.dir\cy_mw_flash.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\dma_12106025507578611576.dir\cy_pdma.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\power_14453085144426420577.dir\cy_power.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\prot_10722960861768657883.dir\cy_prot.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\scb_15490842639181808494.dir\cy_scb_common.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\scb_15490842639181808494.dir\cy_scb_ezi2c.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\scb_15490842639181808494.dir\cy_scb_i2c.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\scb_15490842639181808494.dir\cy_scb_spi.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\scb_15490842639181808494.dir\cy_scb_uart.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sd_host_2982766354293506895.dir\cy_sd_host.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\semihosting_143864889731838620.dir\cy_semihosting.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smartio_5451710003740070188.dir\cy_smartio.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_427648126384146252.dir\cy_smif.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_mem_6470536964353725183.dir\cy_smif_device_common.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_mem_6470536964353725183.dir\cy_smif_hb_flash.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_427648126384146252.dir\cy_smif_memslot.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_mem_6470536964353725183.dir\cy_smif_s25fl.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_mem_6470536964353725183.dir\cy_smif_s25fs.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_mem_6470536964353725183.dir\cy_smif_semp.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_427648126384146252.dir\cy_smif_ver_specific.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\srom_13018798572330080582.dir\cy_srom.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sw_timer_4215635015939382130.dir\cy_sw_tmr.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysclk_16149231235676103872.dir\cy_sysclk.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysflt_12293435975120599261.dir\cy_sysflt.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysint_7435970359207984181.dir\cy_sysint.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\syslib_16330585751512546975.dir\cy_syslib.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\syslib_16330585751512546975.dir\cy_syslib_iar.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\syspm_10887939769544754770.dir\cy_syspm.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysreghc_17676636058511625587.dir\cy_sysreghc.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysreset_14586141425677365288.dir\cy_sysreset.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysrtc_10747768817563771611.dir\cy_sysrtc.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\systick_16016591671695740695.dir\cy_systick.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\syswdt_9118657615806274156.dir\cy_syswdt.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\tcpwm_422923530147891246.dir\cy_tcpwm.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\tcpwm_422923530147891246.dir\cy_tcpwm_counter.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\tcpwm_422923530147891246.dir\cy_tcpwm_pwm.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\tcpwm_422923530147891246.dir\cy_tcpwm_quaddec.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\tcpwm_422923530147891246.dir\cy_tcpwm_sr.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\trigmux_9729677290734583340.dir\cy_trigmux.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\ethernet_6029839089178797009.dir\edd.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\ethernet_6029839089178797009.dir\edd_rx.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\ethernet_6029839089178797009.dir\edd_tx.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\code_17896468042025673432.dir\filter.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\user_8514941877209965082.dir\main_cm7_0.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\code_17896468042025673432.dir\PID.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\code_17896468042025673432.dir\Quaternion.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_components_14936052685886095442.dir\seekfree_assistant.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_components_14936052685886095442.dir\seekfree_assistant_interface.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\code_17896468042025673432.dir\small_driver_uart_control.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\startup_479057977785470282.dir\startup.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\startup_479057977785470282.dir\startup_cm7.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\rev_b_4986922561640112550.dir\system_tviibh4m_cm7.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\code_17896468042025673432.dir\vmc.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_common_1201165462030747823.dir\zf_common_clock.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_common_1201165462030747823.dir\zf_common_debug.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_common_1201165462030747823.dir\zf_common_fifo.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_common_1201165462030747823.dir\zf_common_font.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_common_1201165462030747823.dir\zf_common_function.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_common_1201165462030747823.dir\zf_common_interrupt.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_ble6a20.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_dl1a.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_dl1b.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_gnss.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_icm20602.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_imu660ra.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_imu963ra.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_ips114.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_ips200.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_key.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_menc15a.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_mt9v03x.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_oled.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_tft180.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_tsl1401.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_type.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_uart_receiver.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_wifi_spi.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_wifi_uart.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir\zf_device_wireless_uart.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_adc.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_delay.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_dma.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_encoder.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_exti.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_flash.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_gpio.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_ipc.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_pit.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_pwm.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_soft_iic.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_soft_spi.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_spi.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_timer.o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir\zf_driver_uart.o
+#        --no_out_extension -o
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Exe\cyt4bb7_cm_7_0.out
+#        --config_def _CORE_cm7_0_=0 --config_def _LINK_flash_=0 --map
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\List\cyt4bb7_cm_7_0.map
+#        --config
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\..\icf\linker_directives_tviibh.icf
+#        --semihosting
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\..\..\..\libraries\sdk\tviibh4m\src\drivers\crypto\libs\libcrypto_server_cm0plus_iar.a
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\..\..\..\libraries\zf_device\zf_device_config.a
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\..\..\..\libraries\sdk\common\hdr\cmsis\dsp\iar_cortexM7lf_math.a
+#        --entry __iar_program_start --vfe --text_out locale --cpu=Cortex-M7
+#        --fpu=VFPv5_d16) --dependencies=n
+#        E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Exe\cyt4bb7_cm_7_0.out.iar_deps
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at start of [from 0x1008'0000 to 0x1027'ffff] { section .intvec };
+"P1":  place in [from 0x1008'0000 to 0x1027'ffff] { ro };
+"P2":  place in [from 0x2802'0000 to 0x2807'ffff] { rw };
+define block HEAP with size = 1K, alignment = 8 { };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP_STACK { block HEAP, last block CSTACK };
+"A1":  place at end of [from 0x2802'0000 to 0x2807'ffff] { block HEAP_STACK };
+do not initialize { section .intvec_ram };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section .sflash_app_prot  in "P6"
+  ro section .sflash_nar       in "P4"
+  ro section .sflash_pkey      in "P5"
+  ro section .sflash_toc2      in "P7"
+  ro section .sflash_uf_rows   in "P3"
+  ro section .work_flash       in "P8"
+  section .global_ram_data     in "P9"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0x80
+  .intvec            ro code  0x1008'0000    0x80  startup_cm7.o [31]
+                            - 0x1008'0080    0x80
+
+"P1":                                      0xa1d3
+  .rodata            const    0x1008'0080  0x2000  zf_device_config.o [54]
+  .text              ro code  0x1008'2080   0xdc0  zf_driver_pwm.o [49]
+  .text              ro code  0x1008'2e40   0x444  zf_common_debug.o [46]
+  .text              ro code  0x1008'3284    0x66  ABImemset.o [52]
+  .text              ro code  0x1008'32ea    0x7e  lz77_init_single.o [52]
+  .text              ro code  0x1008'3368   0x194  cy_gpio.o [14]
+  .text              ro code  0x1008'34fc   0x20a  cy_tcpwm_pwm.o [43]
+  .text              ro code  0x1008'3706     0xc  cy_tcpwm.o [43]
+  .text              ro code  0x1008'3712     0xa  xsprout.o [50]
+  .text              ro code  0x1008'371c   0x828  zf_driver_uart.o [49]
+  .text              ro code  0x1008'3f44    0x36  strlen.o [52]
+  .text              ro code  0x1008'3f7c    0x40  sprintf.o [50]
+  .text              ro code  0x1008'3fbc   0x1f8  zf_common_fifo.o [46]
+  .text              ro code  0x1008'41b4    0xe2  zf_common_interrupt.o [46]
+  .text              ro code  0x1008'4298     0x6  ABImemclr4.o [52]
+  .text              ro code  0x1008'42a0   0x230  I64DivMod.o [52]
+  .text              ro code  0x1008'44d0   0x314  cy_scb_uart.o [24]
+  .text              ro code  0x1008'47e4   0x13c  xprintftiny.o [50]
+  .text              ro code  0x1008'4920    0xa6  ABImemcpy.o [52]
+  .text              ro code  0x1008'49c8    0xac  cy_sysint.o [35]
+  .text              ro code  0x1008'4a74    0x32  ABImemset48.o [52]
+  .text              ro code  0x1008'4aa8     0x2  I64DivZer.o [52]
+  .text              ro code  0x1008'4aac   0xbbc  zf_driver_spi.o [49]
+  .text              ro code  0x1008'5668   0x1f0  cy_scb_spi.o [24]
+  .text              ro code  0x1008'5858   0x8f8  zf_device_tft180.o [48]
+  .text              ro code  0x1008'6150   0x110  zf_driver_gpio.o [49]
+  .text              ro code  0x1008'6260   0x284  zf_driver_delay.o [49]
+  .text              ro code  0x1008'64e4   0x1ae  cy_tcpwm_counter.o [43]
+  .text              ro code  0x1008'6694   0x8e8  cy_sysclk.o [33]
+  .text              ro code  0x1008'6f7c    0x70  strncpy.o [52]
+  .text              ro code  0x1008'6fec    0xa8  cy_syslib.o [36]
+  .text              ro code  0x1008'7094     0x2  cy_syslib.o [36]
+  .rodata            const    0x1008'7098   0x5f0  zf_common_font.o [46]
+  .text              ro code  0x1008'7688   0x448  Attitude.o [5]
+  .text              ro code  0x1008'7ad0   0x258  zf_device_imu660ra.o [48]
+  .text              ro code  0x1008'7d28     0x8  abs.o [50]
+  .text              ro code  0x1008'7d30   0x264  Quaternion.o [5]
+  .text              ro code  0x1008'7f94    0x92  filter.o [5]
+  .text              ro code  0x1008'8028    0x6a  atan2f.o [51]
+  .text              ro code  0x1008'8094    0x5c  asinf.o [51]
+  .text              ro code  0x1008'80f0    0xa4  xatanf.o [51]
+  .text              ro code  0x1008'8194   0x398  zf_driver_pit.o [49]
+  .rodata            const    0x1008'852c   0x228  zf_common_font.o [46]
+  .text              ro code  0x1008'8754   0x204  startup.o [31]
+  .text              ro code  0x1008'8958   0x150  system_tviibh4m_cm7.o [22]
+  .text              ro code  0x1008'8aa8     0x8  startup_cm7.o [31]
+  .text              ro code  0x1008'8ab0     0x6  startup_cm7.o [31]
+  .text              ro code  0x1008'8ab8   0x200  cm7_0_isr.o [45]
+  .text              ro code  0x1008'8cb8   0x100  zf_device_key.o [48]
+  .text              ro code  0x1008'8db8   0x10c  control.o [5]
+  .text              ro code  0x1008'8ec4    0x7c  zf_device_tsl1401.o [48]
+  .text              ro code  0x1008'8f40   0x1ec  small_driver_uart_control.o [5]
+  .text              ro code  0x1008'912c   0x170  PID.o [5]
+  .text              ro code  0x1008'929c    0x74  zf_driver_adc.o [49]
+  .text              ro code  0x1008'9310   0x198  cy_interrupt_map.o [23]
+  .rodata            const    0x1008'94a8    0xc4  system_tviibh4m_cm7.o [22]
+  .rodata            const    0x1008'956c    0xc0  cy_sysclk.o [33]
+  .rodata            const    0x1008'962c    0xc0  cy_sysclk.o [33]
+  .rodata            const    0x1008'96ec    0xb4  zf_device_imu660ra.o [48]
+  .rodata            const    0x1008'97a0    0xb4  zf_device_tft180.o [48]
+  .rodata            const    0x1008'9854    0xb0  zf_common_fifo.o [46]
+  .rodata            const    0x1008'9904    0xb0  zf_device_key.o [48]
+  .rodata            const    0x1008'99b4    0xb0  zf_driver_pwm.o [49]
+  .rodata            const    0x1008'9a64    0xb0  zf_driver_spi.o [49]
+  .rodata            const    0x1008'9b14    0xb0  zf_driver_uart.o [49]
+  .text              ro code  0x1008'9bc4    0xb0  startup_cm7.o [31]
+  .text              ro code  0x1008'9c74    0x7c  vmc.o [5]
+  .text              ro code  0x1008'9cf0    0x38  roundf.o [51]
+  .text              ro code  0x1008'9d28    0x40  main_cm7_0.o [45]
+  .text              ro code  0x1008'9d68    0x1c  zf_common_clock.o [46]
+  .text              ro code  0x1008'9d84    0x38  zero_init3.o [52]
+  .text              ro code  0x1008'9dbc    0x28  data_init.o [52]
+  .text              ro code  0x1008'9de4    0x22  fpinit_M.o [51]
+  .iar.init_table    const    0x1008'9e08    0x20  - Linker created -
+  .text              ro code  0x1008'9e28    0x20  startup_cm7.o [31]
+  .text              ro code  0x1008'9e50    0x1e  cy_syslib_iar.o [36]
+  .text              ro code  0x1008'9e70    0x1e  cmain.o [52]
+  .text              ro code  0x1008'9e90     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'9e94     0x4  exit.o [50]
+  .text              ro code  0x1008'9e98     0xa  cexit.o [52]
+  .text              ro code  0x1008'9ea4    0x14  exit.o [53]
+  .rodata            const    0x1008'9eb8    0x1c  zf_common_debug.o [46]
+  .rodata            const    0x1008'9ed4    0x1c  zf_device_imu660ra.o [48]
+  .text              ro code  0x1008'9ef0    0x1c  startup_cm7.o [31]
+  .text              ro code  0x1008'9f0c    0x1c  cstartup_M.o [52]
+  .rodata            const    0x1008'9f28    0x18  startup.o [31]
+  .rodata            const    0x1008'9f40    0x18  system_tviibh4m_cm7.o [22]
+  .rodata            const    0x1008'9f58    0x18  zf_common_debug.o [46]
+  .rodata            const    0x1008'9f70    0x18  zf_device_imu660ra.o [48]
+  .rodata            const    0x1008'9f88    0x10  zf_common_debug.o [46]
+  .rodata            const    0x1008'9f98    0x10  zf_common_debug.o [46]
+  .rodata            const    0x1008'9fa8     0xc  zf_common_debug.o [46]
+  .rodata            const    0x1008'9fb4     0xc  zf_common_debug.o [46]
+  .rodata            const    0x1008'9fc0     0xc  zf_common_debug.o [46]
+  .text              ro code  0x1008'9fcc     0xc  cy_syslib.o [36]
+  .rodata            const    0x1008'9fd8     0x8  cy_sysclk.o [33]
+  .rodata            const    0x1008'9fe0     0x4  cy_interrupt_map.o [23]
+  .rodata            const    0x1008'9fe4     0x4  cy_interrupt_map.o [23]
+  .rodata            const    0x1008'9fe8     0x4  cy_interrupt_map.o [23]
+  .rodata            const    0x1008'9fec     0x4  cy_interrupt_map.o [23]
+  .rodata            const    0x1008'9ff0     0x4  cy_interrupt_map.o [23]
+  .rodata            const    0x1008'9ff4     0x4  cy_interrupt_map.o [23]
+  .rodata            const    0x1008'9ff8     0x4  cy_interrupt_map.o [23]
+  .rodata            const    0x1008'9ffc     0x4  cy_interrupt_map.o [23]
+  .rodata            const    0x1008'a000     0x4  cy_scb_spi.o [24]
+  .rodata            const    0x1008'a004     0x4  cy_scb_spi.o [24]
+  .rodata            const    0x1008'a008     0x4  cy_scb_spi.o [24]
+  .rodata            const    0x1008'a00c     0x4  cy_scb_spi.o [24]
+  .rodata            const    0x1008'a010     0x4  cy_scb_uart.o [24]
+  .rodata            const    0x1008'a014     0x4  cy_scb_uart.o [24]
+  .rodata            const    0x1008'a018     0x4  cy_scb_uart.o [24]
+  .rodata            const    0x1008'a01c     0x4  cy_scb_uart.o [24]
+  .rodata            const    0x1008'a020     0x4  cy_scb_uart.o [24]
+  .rodata            const    0x1008'a024     0x4  cy_scb_uart.o [24]
+  .rodata            const    0x1008'a028     0x4  cy_scb_uart.o [24]
+  .rodata            const    0x1008'a02c     0x4  cy_scb_uart.o [24]
+  .rodata            const    0x1008'a030     0x4  cy_scb_uart.o [24]
+  .rodata            const    0x1008'a034     0x4  cy_scb_uart.o [24]
+  .rodata            const    0x1008'a038     0x4  cy_sysint.o [35]
+  .rodata            const    0x1008'a03c     0x4  cy_sysint.o [35]
+  .rodata            const    0x1008'a040     0x4  cy_tcpwm_counter.o [43]
+  .rodata            const    0x1008'a044     0x4  cy_tcpwm_counter.o [43]
+  .rodata            const    0x1008'a048     0x4  cy_tcpwm_counter.o [43]
+  .rodata            const    0x1008'a04c     0x4  cy_tcpwm_counter.o [43]
+  .rodata            const    0x1008'a050     0x4  cy_tcpwm_counter.o [43]
+  .rodata            const    0x1008'a054     0x4  cy_tcpwm_pwm.o [43]
+  .rodata            const    0x1008'a058     0x4  cy_tcpwm_pwm.o [43]
+  .rodata            const    0x1008'a05c     0x4  cy_tcpwm_pwm.o [43]
+  .rodata            const    0x1008'a060     0x4  cy_tcpwm_pwm.o [43]
+  .rodata            const    0x1008'a064     0x4  cy_tcpwm_pwm.o [43]
+  .rodata            const    0x1008'a068     0x4  cy_tcpwm_pwm.o [43]
+  .rodata            const    0x1008'a06c     0x4  cy_tcpwm_pwm.o [43]
+  .rodata            const    0x1008'a070     0x4  zf_device_key.o [48]
+  .text              ro code  0x1008'a074     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a078     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a07c     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a080     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a084     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a088     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a08c     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a090     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a094     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a098     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a09c     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a0a0     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a0a4     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a0a8     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a0ac     0x4  startup_cm7.o [31]
+  .text              ro code  0x1008'a0b0     0x2  zf_device_type.o [48]
+  .rodata            const    0x1008'a0b2     0x0  zero_init3.o [52]
+  .rodata            const    0x1008'a0b2     0x0  lz77_init_single.o [52]
+  Initializer bytes  const    0x1008'a0b2    0xde  <for P2-1>
+                            - 0x1008'a190  0xa110
+
+"P2", part 1 of 3:                          0x821
+  P2-1                        0x2802'0000   0x821  <Init block>
+    .data            inited   0x2802'0000   0x6ec  cy_interrupt_map.o [23]
+    .data            inited   0x2802'06ec     0x4  cy_interrupt_map.o [23]
+    .data            inited   0x2802'06f0     0x4  filter.o [5]
+    .data            inited   0x2802'06f4    0x48  filter.o [5]
+    .data            inited   0x2802'073c    0x4c  Quaternion.o [5]
+    .data            inited   0x2802'0788     0x8  zf_device_imu660ra.o [48]
+    .data            inited   0x2802'0790     0x4  zf_device_type.o [48]
+    .data            inited   0x2802'0794     0xc  zf_driver_adc.o [49]
+    .data            inited   0x2802'07a0    0x3c  zf_driver_pit.o [49]
+    .data            inited   0x2802'07dc    0x10  zf_driver_spi.o [49]
+    .data            inited   0x2802'07ec    0x14  zf_driver_uart.o [49]
+    .data            inited   0x2802'0800    0x14  zf_driver_uart.o [49]
+    .data            inited   0x2802'0814     0x2  zf_device_tft180.o [48]
+    .data            inited   0x2802'0816     0x2  zf_device_tft180.o [48]
+    .data            inited   0x2802'0818     0x2  zf_device_tft180.o [48]
+    .data            inited   0x2802'081a     0x2  zf_device_tft180.o [48]
+    .data            inited   0x2802'081c     0x2  zf_driver_delay.o [49]
+    .data            inited   0x2802'081e     0x1  zf_common_debug.o [46]
+    .data            inited   0x2802'081f     0x1  zf_device_tft180.o [48]
+    .data            inited   0x2802'0820     0x1  zf_driver_delay.o [49]
+                            - 0x2802'0821   0x821
+
+"P2", part 2 of 3:                          0x5c0
+  .bss               zero     0x2802'0824   0x200  zf_device_tsl1401.o [48]
+  .bss               zero     0x2802'0a24   0x118  zf_driver_uart.o [49]
+  .bss               zero     0x2802'0b3c    0x70  cy_syslib.o [36]
+  .bss               zero     0x2802'0bac    0x48  zf_driver_adc.o [49]
+  .bss               zero     0x2802'0bf4    0x40  zf_common_debug.o [46]
+  .bss               zero     0x2802'0c34    0x3c  control.o [5]
+  .bss               zero     0x2802'0c70    0x3c  control.o [5]
+  .bss               zero     0x2802'0cac    0x20  control.o [5]
+  .bss               zero     0x2802'0ccc    0x18  Attitude.o [5]
+  .bss               zero     0x2802'0ce4    0x18  cy_sysclk.o [33]
+  .bss               zero     0x2802'0cfc    0x18  cy_syslib.o [36]
+  .bss               zero     0x2802'0d14    0x18  zf_common_debug.o [46]
+  .bss               zero     0x2802'0d2c    0x14  small_driver_uart_control.o [5]
+  .bss               zero     0x2802'0d40    0x14  zf_common_debug.o [46]
+  .bss               zero     0x2802'0d54    0x10  zf_device_key.o [48]
+  .bss               zero     0x2802'0d64     0xc  Attitude.o [5]
+  .bss               zero     0x2802'0d70     0xc  Attitude.o [5]
+  .bss               zero     0x2802'0d7c     0xc  Attitude.o [5]
+  .bss               zero     0x2802'0d88     0xc  Quaternion.o [5]
+  .bss               zero     0x2802'0d94     0x4  control.o [5]
+  .bss               zero     0x2802'0d98     0x4  control.o [5]
+  .bss               zero     0x2802'0d9c     0x4  control.o [5]
+  .bss               zero     0x2802'0da0     0x4  cy_syslib.o [36]
+  .bss               zero     0x2802'0da4     0x4  Quaternion.o [5]
+  .bss               zero     0x2802'0da8     0x4  system_tviibh4m_cm7.o [22]
+  .bss               zero     0x2802'0dac     0x4  system_tviibh4m_cm7.o [22]
+  .bss               zero     0x2802'0db0     0x4  system_tviibh4m_cm7.o [22]
+  .bss               zero     0x2802'0db4     0x4  system_tviibh4m_cm7.o [22]
+  .bss               zero     0x2802'0db8     0x4  system_tviibh4m_cm7.o [22]
+  .bss               zero     0x2802'0dbc     0x4  zf_common_clock.o [46]
+  .bss               zero     0x2802'0dc0     0x4  zf_common_interrupt.o [46]
+  .bss               zero     0x2802'0dc4     0x4  zf_device_key.o [48]
+  .bss               zero     0x2802'0dc8     0x4  zf_device_key.o [48]
+  .bss               zero     0x2802'0dcc     0x4  zf_driver_spi.o [49]
+  .bss               zero     0x2802'0dd0     0x2  zf_device_imu660ra.o [48]
+  .bss               zero     0x2802'0dd2     0x2  zf_device_imu660ra.o [48]
+  .bss               zero     0x2802'0dd4     0x2  zf_device_imu660ra.o [48]
+  .bss               zero     0x2802'0dd6     0x2  zf_device_imu660ra.o [48]
+  .bss               zero     0x2802'0dd8     0x2  zf_device_imu660ra.o [48]
+  .bss               zero     0x2802'0dda     0x2  zf_device_imu660ra.o [48]
+  .bss               zero     0x2802'0ddc     0x1  cy_sysclk.o [33]
+  .bss               zero     0x2802'0ddd     0x1  zf_common_debug.o [46]
+  .bss               zero     0x2802'0dde     0x1  zf_common_debug.o [46]
+  .bss               zero     0x2802'0ddf     0x1  zf_common_debug.o [46]
+  .bss               zero     0x2802'0de0     0x1  zf_device_tft180.o [48]
+  .bss               zero     0x2802'0de1     0x1  zf_device_tsl1401.o [48]
+  .bss               zero     0x2802'0de2     0x1  zf_device_tsl1401.o [48]
+                            - 0x2802'0de3   0x5bf
+
+"P2", part 3 of 3:                           0x80
+  .intvec_ram        uninit   0x2802'0e00    0x80  startup_cm7.o [31]
+                            - 0x2802'0e80    0x80
+
+"A1":                                      0x2000
+  HEAP_STACK                  0x2807'e000  0x2000  <Block>
+    CSTACK                    0x2807'e000  0x2000  <Block>
+      CSTACK         uninit   0x2807'e000  0x2000  <Block tail>
+                            - 0x2808'0000  0x2000
+
+Unused ranges:
+
+         From           To       Size
+         ----           --       ----
+  0x1008'a253  0x1027'ffff  0x1f'5dad
+  0x2802'0821  0x2802'0823        0x3
+  0x2802'0de4  0x2802'0dff       0x1c
+  0x2802'0e80  0x2807'dfff   0x5'd180
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x5bf:
+          0x2802'0824  0x5bf
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0xde (10% of destination):
+          0x1008'a0b2   0xde
+    1 destination range, total size 0x821:
+          0x2802'0000  0x821
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                       ro code  ro data  rw data
+    ------                       -------  -------  -------
+command line/config:
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\adc_11722776235721520015.dir: [1]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\audioss_1346650047966882938.dir: [2]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\button_4990804375159372270.dir: [3]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\canfd_1800690984773873875.dir: [4]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\code_17896468042025673432.dir: [5]
+    Attitude.o                     1'096                60
+    PID.o                            368
+    Quaternion.o                     612        8       92
+    control.o                        268               164
+    filter.o                         146        8       76
+    small_driver_uart_control.o      492                20
+    vmc.o                            124
+    ------------------------------------------------------
+    Total:                         3'106       16      412
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\cpu_15938736945165268644.dir: [6]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\crypto_1190170608956581615.dir: [7]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\dma_12106025507578611576.dir: [8]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\eth_phy_18133017486186456677.dir: [9]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\ethernet_6029839089178797009.dir: [10]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\evtgen_3404189088603873129.dir: [11]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\flash_8529866181315662935.dir: [12]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\flash_864493325053435817.dir: [13]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\gpio_3999404635324069351.dir: [14]
+    cy_gpio.o                        404
+    ------------------------------------------------------
+    Total:                           404
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\ipc_10145506163450686023.dir: [15]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\lin_18429031207028094880.dir: [16]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\lvd_6353935867039560245.dir: [17]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\mcwdt_4052485907822033969.dir: [18]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\mpu_5663187252346826382.dir: [19]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\power_14453085144426420577.dir: [20]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\prot_10722960861768657883.dir: [21]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\rev_b_4986922561640112550.dir: [22]
+    system_tviibh4m_cm7.o            336      220       20
+    ------------------------------------------------------
+    Total:                           336      220       20
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\rev_b_6162237342861132223.dir: [23]
+    cy_interrupt_map.o               408      221    1'776
+    ------------------------------------------------------
+    Total:                           408      221    1'776
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\scb_15490842639181808494.dir: [24]
+    cy_scb_spi.o                     496       16
+    cy_scb_uart.o                    788       40
+    ------------------------------------------------------
+    Total:                         1'284       56
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sd_host_2982766354293506895.dir: [25]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\semihosting_143864889731838620.dir: [26]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smartio_5451710003740070188.dir: [27]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_427648126384146252.dir: [28]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_mem_6470536964353725183.dir: [29]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\srom_13018798572330080582.dir: [30]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\startup_479057977785470282.dir: [31]
+    startup.o                        516       24
+    startup_cm7.o                    442               128
+    ------------------------------------------------------
+    Total:                           958       24      128
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sw_timer_4215635015939382130.dir: [32]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysclk_16149231235676103872.dir: [33]
+    cy_sysclk.o                    2'280      392       25
+    ------------------------------------------------------
+    Total:                         2'280      392       25
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysflt_12293435975120599261.dir: [34]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysint_7435970359207984181.dir: [35]
+    cy_sysint.o                      172        8
+    ------------------------------------------------------
+    Total:                           172        8
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\syslib_16330585751512546975.dir: [36]
+    cy_syslib.o                      182               140
+    cy_syslib_iar.o                   30
+    ------------------------------------------------------
+    Total:                           212               140
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\syspm_10887939769544754770.dir: [37]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysreghc_17676636058511625587.dir: [38]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysreset_14586141425677365288.dir: [39]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysrtc_10747768817563771611.dir: [40]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\systick_16016591671695740695.dir: [41]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\syswdt_9118657615806274156.dir: [42]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\tcpwm_422923530147891246.dir: [43]
+    cy_tcpwm.o                        12
+    cy_tcpwm_counter.o               430       20
+    cy_tcpwm_pwm.o                   522       28
+    ------------------------------------------------------
+    Total:                           964       48
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\trigmux_9729677290734583340.dir: [44]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\user_8514941877209965082.dir: [45]
+    cm7_0_isr.o                      512
+    main_cm7_0.o                      64
+    ------------------------------------------------------
+    Total:                           576
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_common_1201165462030747823.dir: [46]
+    zf_common_clock.o                 28                 4
+    zf_common_debug.o              1'092      120      112
+    zf_common_fifo.o                 504      176
+    zf_common_font.o                        2'072
+    zf_common_interrupt.o            226                 4
+    ------------------------------------------------------
+    Total:                         1'850    2'368      120
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_components_14936052685886095442.dir: [47]
+    ------------------------------------------------------
+    Total:
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir: [48]
+    zf_device_imu660ra.o             600      233       20
+    zf_device_key.o                  256      180       24
+    zf_device_tft180.o             2'296      181       10
+    zf_device_tsl1401.o              124               514
+    zf_device_type.o                   2                 4
+    ------------------------------------------------------
+    Total:                         3'278      594      572
+
+E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir: [49]
+    zf_driver_adc.o                  116        2       84
+    zf_driver_delay.o                644        1        3
+    zf_driver_gpio.o                 272
+    zf_driver_pit.o                  920        6       60
+    zf_driver_pwm.o                3'520      176
+    zf_driver_spi.o                3'004      178       20
+    zf_driver_uart.o               2'088      180      320
+    ------------------------------------------------------
+    Total:                        10'564      543      487
+
+dl7M_tln.a: [50]
+    abs.o                              8
+    exit.o                             4
+    sprintf.o                         64
+    xprintftiny.o                    316
+    xsprout.o                         10
+    ------------------------------------------------------
+    Total:                           402
+
+m7M_tlv.a: [51]
+    asinf.o                           92
+    atan2f.o                         106
+    fpinit_M.o                        34
+    roundf.o                          56
+    xatanf.o                         164
+    ------------------------------------------------------
+    Total:                           452
+
+rt7M_tl.a: [52]
+    ABImemclr4.o                       6
+    ABImemcpy.o                      166
+    ABImemset.o                      102
+    ABImemset48.o                     50
+    I64DivMod.o                      560
+    I64DivZer.o                        2
+    cexit.o                           10
+    cmain.o                           30
+    cstartup_M.o                      28
+    data_init.o                       40
+    lz77_init_single.o               126
+    strlen.o                          54
+    strncpy.o                        112
+    zero_init3.o                      56
+    ------------------------------------------------------
+    Total:                         1'342
+
+shb_l.a: [53]
+    exit.o                            20
+    ------------------------------------------------------
+    Total:                            20
+
+zf_device_config.a: [54]
+    zf_device_config.o                      8'192
+    ------------------------------------------------------
+    Total:                                  8'192
+
+    Gaps                              34        4
+    Linker created                             32    8'192
+----------------------------------------------------------
+    Grand Total:                  28'642   12'718   11'872
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base   0x1008'9e08           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x1008'9e28           --   Gb  - Linker created -
+?main                   0x1008'9e71          Code  Gb  cmain.o [52]
+Attitude_Init           0x1008'78b3    0x2a  Code  Gb  Attitude.o [5]
+Attitude_calibration    0x1008'78dd   0x106  Code  Gb  Attitude.o [5]
+Attitude_filter         0x1008'79e3    0x8c  Code  Gb  Attitude.o [5]
+Attitude_get            0x1008'7a6f    0x16  Code  Gb  Attitude.o [5]
+BusFault_Handler        0x1008'a07d          Code  Wk  startup_cm7.o [31]
+CSTACK$$Base            0x2807'e000           --   Gb  - Linker created -
+CSTACK$$Limit           0x2808'0000           --   Gb  - Linker created -
+CopyVectorTable         0x1008'88f5    0x34  Code  Lc  startup.o [31]
+CpuUserInt0_Handler     0x1008'932f    0x26  Code  Gb  cy_interrupt_map.o [23]
+CpuUserInt10_Handler    0x1008'a099          Code  Wk  startup_cm7.o [31]
+CpuUserInt11_Handler    0x1008'a09d          Code  Wk  startup_cm7.o [31]
+CpuUserInt12_Handler    0x1008'a0a1          Code  Wk  startup_cm7.o [31]
+CpuUserInt13_Handler    0x1008'a0a5          Code  Wk  startup_cm7.o [31]
+CpuUserInt14_Handler    0x1008'a0a9          Code  Wk  startup_cm7.o [31]
+CpuUserInt15_Handler    0x1008'a0ad          Code  Wk  startup_cm7.o [31]
+CpuUserInt1_Handler     0x1008'9355    0x26  Code  Gb  cy_interrupt_map.o [23]
+CpuUserInt2_Handler     0x1008'937b    0x26  Code  Gb  cy_interrupt_map.o [23]
+CpuUserInt3_Handler     0x1008'93a1    0x26  Code  Gb  cy_interrupt_map.o [23]
+CpuUserInt4_Handler     0x1008'93c7    0x26  Code  Gb  cy_interrupt_map.o [23]
+CpuUserInt5_Handler     0x1008'93ed    0x26  Code  Gb  cy_interrupt_map.o [23]
+CpuUserInt6_Handler     0x1008'9413    0x26  Code  Gb  cy_interrupt_map.o [23]
+CpuUserInt7_Handler     0x1008'9439    0x26  Code  Gb  cy_interrupt_map.o [23]
+CpuUserInt8_Handler     0x1008'a091          Code  Wk  startup_cm7.o [31]
+CpuUserInt9_Handler     0x1008'a095          Code  Wk  startup_cm7.o [31]
+Cy_DefaultUserHandler   0x1008'932d     0x2  Code  Gb  cy_interrupt_map.o [23]
+Cy_GPIO_ClearInterrupt  0x1008'343b     0xe  Code  Lc  cy_gpio.o [14]
+Cy_GPIO_Clr             0x1008'6165     0xa  Code  Lc  zf_driver_gpio.o [49]
+Cy_GPIO_Pin_Init        0x1008'347f    0x72  Code  Gb  cy_gpio.o [14]
+Cy_GPIO_Read            0x1008'6151     0xa  Code  Lc  zf_driver_gpio.o [49]
+Cy_GPIO_Set             0x1008'615b     0xa  Code  Lc  zf_driver_gpio.o [49]
+Cy_GPIO_SetDriveSel     0x1008'341d    0x1e  Code  Lc  cy_gpio.o [14]
+Cy_GPIO_SetDrivemode    0x1008'33cd    0x1c  Code  Lc  cy_gpio.o [14]
+Cy_GPIO_SetHSIOM        0x1008'3369    0x4c  Code  Lc  cy_gpio.o [14]
+Cy_GPIO_SetInterruptEdge
+                        0x1008'3463    0x1c  Code  Lc  cy_gpio.o [14]
+Cy_GPIO_SetInterruptMask
+                        0x1008'3449    0x1a  Code  Lc  cy_gpio.o [14]
+Cy_GPIO_SetSlewRate     0x1008'3403    0x1a  Code  Lc  cy_gpio.o [14]
+Cy_GPIO_SetVtrip        0x1008'33e9    0x1a  Code  Lc  cy_gpio.o [14]
+Cy_GPIO_Write           0x1008'33b5    0x18  Code  Lc  cy_gpio.o [14]
+Cy_RestoreIRQ           0x1008'8ab1          Code  Gb  startup_cm7.o [31]
+Cy_SCB_ClearRxFifo      0x1008'4ab7    0x1e  Code  Lc  zf_driver_spi.o [49]
+Cy_SCB_ClearRxInterrupt
+                        0x1008'8abf     0xa  Code  Lc  cm7_0_isr.o [45]
+Cy_SCB_ClearTxInterrupt
+                        0x1008'8acf     0xa  Code  Lc  cm7_0_isr.o [45]
+Cy_SCB_GetFifoSize      0x1008'4b11    0x12  Code  Lc  zf_driver_spi.o [49]
+Cy_SCB_GetNumInRxFifo   0x1008'4aad     0xa  Code  Lc  zf_driver_spi.o [49]
+Cy_SCB_GetNumInRxFifo   0x1008'38c7     0xa  Code  Lc  zf_driver_uart.o [49]
+Cy_SCB_GetNumInTxFifo   0x1008'4adb     0xa  Code  Lc  zf_driver_spi.o [49]
+Cy_SCB_GetNumInTxFifo   0x1008'38d7     0xa  Code  Lc  zf_driver_uart.o [49]
+Cy_SCB_GetRxInterruptMask
+                        0x1008'8ab9     0x6  Code  Lc  cm7_0_isr.o [45]
+Cy_SCB_GetRxInterruptMask
+                        0x1008'3913     0x6  Code  Lc  zf_driver_uart.o [49]
+Cy_SCB_GetTxInterruptMask
+                        0x1008'8ac9     0x6  Code  Lc  cm7_0_isr.o [45]
+Cy_SCB_GetTxInterruptMask
+                        0x1008'391f     0x6  Code  Lc  zf_driver_uart.o [49]
+Cy_SCB_GetTxSrValid     0x1008'4ae5     0xa  Code  Lc  zf_driver_spi.o [49]
+Cy_SCB_GetTxSrValid     0x1008'38e1     0xa  Code  Lc  zf_driver_uart.o [49]
+Cy_SCB_IsTxComplete     0x1008'4aef    0x22  Code  Lc  zf_driver_spi.o [49]
+Cy_SCB_IsTxComplete     0x1008'38eb    0x22  Code  Lc  zf_driver_uart.o [49]
+Cy_SCB_ReadRxFifo       0x1008'38c1     0x6  Code  Lc  zf_driver_uart.o [49]
+Cy_SCB_SPI_ClearRxFifo  0x1008'4b41     0x8  Code  Lc  zf_driver_spi.o [49]
+Cy_SCB_SPI_Enable       0x1008'4b23     0xa  Code  Lc  zf_driver_spi.o [49]
+Cy_SCB_SPI_GetNumInRxFifo
+                        0x1008'4b39     0x8  Code  Lc  zf_driver_spi.o [49]
+Cy_SCB_SPI_Init         0x1008'5669   0x1d8  Code  Gb  cy_scb_spi.o [24]
+Cy_SCB_SPI_SetActiveSlaveSelect
+                        0x1008'4b2d     0xc  Code  Lc  zf_driver_spi.o [49]
+Cy_SCB_SetRxInterruptMask
+                        0x1008'390d     0x6  Code  Lc  zf_driver_uart.o [49]
+Cy_SCB_SetTxInterruptMask
+                        0x1008'3919     0x6  Code  Lc  zf_driver_uart.o [49]
+Cy_SCB_UART_DeInit      0x1008'4755    0x5c  Code  Gb  cy_scb_uart.o [24]
+Cy_SCB_UART_Enable      0x1008'3925     0xa  Code  Lc  zf_driver_uart.o [49]
+Cy_SCB_UART_Init        0x1008'44d1   0x284  Code  Gb  cy_scb_uart.o [24]
+Cy_SCB_WriteTxFifo      0x1008'4ad5     0x6  Code  Lc  zf_driver_spi.o [49]
+Cy_SCB_WriteTxFifo      0x1008'38d1     0x6  Code  Lc  zf_driver_uart.o [49]
+Cy_SaveIRQ              0x1008'8aa9          Code  Gb  startup_cm7.o [31]
+Cy_SysClk_CheckDividerExisting
+                        0x1008'6261    0x2a  Code  Lc  zf_driver_delay.o [49]
+Cy_SysClk_CheckDividerExisting
+                        0x1008'8195    0x2c  Code  Lc  zf_driver_pit.o [49]
+Cy_SysClk_CheckDividerExisting
+                        0x1008'2081    0x2c  Code  Lc  zf_driver_pwm.o [49]
+Cy_SysClk_CheckDividerExisting
+                        0x1008'4b49    0x2c  Code  Lc  zf_driver_spi.o [49]
+Cy_SysClk_CheckDividerExisting
+                        0x1008'371d    0x2c  Code  Lc  zf_driver_uart.o [49]
+Cy_SysClk_ClkPathGetSource
+                        0x1008'6809    0x54  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_EcoGetStatus  0x1008'6695    0x1a  Code  Lc  cy_sysclk.o [33]
+Cy_SysClk_Fast0ClkGetDivider
+                        0x1008'67dd    0x16  Code  Lc  cy_sysclk.o [33]
+Cy_SysClk_Fast1ClkGetDivider
+                        0x1008'67f3    0x16  Code  Lc  cy_sysclk.o [33]
+Cy_SysClk_FllGetConfiguration
+                        0x1008'6865    0x7e  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_FllGetLockStatus
+                        0x1008'66af     0xc  Code  Lc  cy_sysclk.o [33]
+Cy_SysClk_GetClockGroup
+                        0x1008'6309     0x8  Code  Lc  zf_driver_delay.o [49]
+Cy_SysClk_GetClockGroup
+                        0x1008'8243     0x8  Code  Lc  zf_driver_pit.o [49]
+Cy_SysClk_GetClockGroup
+                        0x1008'212f     0x8  Code  Lc  zf_driver_pwm.o [49]
+Cy_SysClk_GetClockGroup
+                        0x1008'4c2d     0x8  Code  Lc  zf_driver_spi.o [49]
+Cy_SysClk_GetClockGroup
+                        0x1008'3801     0x8  Code  Lc  zf_driver_uart.o [49]
+Cy_SysClk_GetCoreFrequency
+                        0x1008'6f29    0x2a  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetEcoFrequency
+                        0x1008'6a31    0x32  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetExtFrequency
+                        0x1008'6a65    0x1e  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetFast0Frequency
+                        0x1008'6e7d    0x56  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetFast1Frequency
+                        0x1008'6ed3    0x56  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetFllInputFrequency
+                        0x1008'6b85     0xc  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetFllOutputFrequency
+                        0x1008'6bad    0x78  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetHfClkFrequency
+                        0x1008'6dff    0x7a  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetIlo0Frequency
+                        0x1008'6a83    0x32  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetIlo1Frequency
+                        0x1008'6ab5    0x32  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetImoFrequency
+                        0x1008'69ff    0x32  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetPathFrequency
+                        0x1008'6dcd    0x32  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetPathSourceFrequency
+                        0x1008'6b21    0x64  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetPll400MNo  0x1008'66f9    0x14  Code  Lc  cy_sysclk.o [33]
+Cy_SysClk_GetPllInputFrequency
+                        0x1008'6b91    0x1c  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetPllNo      0x1008'66bd    0x12  Code  Lc  cy_sysclk.o [33]
+Cy_SysClk_GetPllOutputFrequency
+                        0x1008'6c29   0x1a0  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_GetWcoFrequency
+                        0x1008'6ae7    0x32  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_HfClockGetDivider
+                        0x1008'679b    0x42  Code  Lc  cy_sysclk.o [33]
+Cy_SysClk_HfClockGetSource
+                        0x1008'6747    0x54  Code  Lc  cy_sysclk.o [33]
+Cy_SysClk_InitGetFreqParams
+                        0x1008'69e5    0x1a  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_PeriphAssignDivider
+                        0x1008'6311    0x68  Code  Lc  zf_driver_delay.o [49]
+Cy_SysClk_PeriphAssignDivider
+                        0x1008'824b    0x68  Code  Lc  zf_driver_pit.o [49]
+Cy_SysClk_PeriphAssignDivider
+                        0x1008'2137    0x6a  Code  Lc  zf_driver_pwm.o [49]
+Cy_SysClk_PeriphAssignDivider
+                        0x1008'4c35    0x6a  Code  Lc  zf_driver_spi.o [49]
+Cy_SysClk_PeriphAssignDivider
+                        0x1008'3809    0x6a  Code  Lc  zf_driver_uart.o [49]
+Cy_SysClk_PeriphEnableDivider
+                        0x1008'6379    0x4c  Code  Lc  zf_driver_delay.o [49]
+Cy_SysClk_PeriphEnableDivider
+                        0x1008'82b3    0x4c  Code  Lc  zf_driver_pit.o [49]
+Cy_SysClk_PeriphEnableDivider
+                        0x1008'21a1    0x4e  Code  Lc  zf_driver_pwm.o [49]
+Cy_SysClk_PeriphEnableDivider
+                        0x1008'4c9f    0x4e  Code  Lc  zf_driver_spi.o [49]
+Cy_SysClk_PeriphEnableDivider
+                        0x1008'3873    0x4e  Code  Lc  zf_driver_uart.o [49]
+Cy_SysClk_PeriphSetDivider
+                        0x1008'628b    0x7e  Code  Lc  zf_driver_delay.o [49]
+Cy_SysClk_PeriphSetDivider
+                        0x1008'81c1    0x82  Code  Lc  zf_driver_pit.o [49]
+Cy_SysClk_PeriphSetDivider
+                        0x1008'20ad    0x82  Code  Lc  zf_driver_pwm.o [49]
+Cy_SysClk_PeriphSetFracDivider
+                        0x1008'4b75    0xb8  Code  Lc  zf_driver_spi.o [49]
+Cy_SysClk_PeriphSetFracDivider
+                        0x1008'3749    0xb8  Code  Lc  zf_driver_uart.o [49]
+Cy_SysClk_Pll400MGetConfiguration
+                        0x1008'6951    0x84  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_Pll400MGetLockStatus
+                        0x1008'670d    0x2a  Code  Lc  cy_sysclk.o [33]
+Cy_SysClk_PllGetConfiguration
+                        0x1008'68fd    0x48  Code  Gb  cy_sysclk.o [33]
+Cy_SysClk_PllGetLockStatus
+                        0x1008'66cf    0x28  Code  Lc  cy_sysclk.o [33]
+Cy_SysClk_WcoOkay       0x1008'6739     0xe  Code  Lc  cy_sysclk.o [33]
+Cy_SysInt_InitIRQ       0x1008'49c9    0x7e  Code  Gb  cy_sysint.o [35]
+Cy_SysInt_SetSystemIrqVector
+                        0x1008'4a47    0x12  Code  Gb  cy_sysint.o [35]
+Cy_SysInt_SystemIrqUserTableRamPointer
+                        0x2802'06ec     0x4  Data  Gb  cy_interrupt_map.o [23]
+Cy_SysLib_DelayCycles   0x1008'9e51          Code  Gb  cy_syslib_iar.o [36]
+Cy_SysLib_EnterCriticalSection
+                        0x1008'9e61          Code  Gb  cy_syslib_iar.o [36]
+Cy_SysLib_ExitCriticalSection
+                        0x1008'9e69          Code  Gb  cy_syslib_iar.o [36]
+Cy_SysLib_FaultHandler  0x1008'6ff1    0x90  Code  Gb  cy_syslib.o [36]
+Cy_SysLib_Halt          0x1008'6fed     0x4  Code  Gb  cy_syslib.o [36]
+Cy_SysLib_ProcessingFault
+                        0x1008'7095     0x2  Code  Wk  cy_syslib.o [36]
+Cy_SysLib_SvcHandler    0x1008'9fcd     0xc  Code  Wk  cy_syslib.o [36]
+Cy_SystemInitFpuEnable  0x1008'8a49    0x1e  Code  Gb  system_tviibh4m_cm7.o [22]
+Cy_SystemIrqUserTable   0x2802'0000   0x6ec  Data  Gb  cy_interrupt_map.o [23]
+Cy_Tcpwm_Counter_ClearTC_Intr
+                        0x1008'6683    0x10  Code  Gb  cy_tcpwm_counter.o [43]
+Cy_Tcpwm_Counter_Enable
+                        0x1008'6665     0xa  Code  Gb  cy_tcpwm_counter.o [43]
+Cy_Tcpwm_Counter_GetCounter
+                        0x1008'6673     0x4  Code  Gb  cy_tcpwm_counter.o [43]
+Cy_Tcpwm_Counter_Init   0x1008'64e5   0x16c  Code  Gb  cy_tcpwm_counter.o [43]
+Cy_Tcpwm_Counter_SetCounter
+                        0x1008'666f     0x4  Code  Gb  cy_tcpwm_counter.o [43]
+Cy_Tcpwm_Counter_SetTC_IntrMask
+                        0x1008'6677     0xc  Code  Gb  cy_tcpwm_counter.o [43]
+Cy_Tcpwm_Pwm_Enable     0x1008'36fd     0xa  Code  Gb  cy_tcpwm_pwm.o [43]
+Cy_Tcpwm_Pwm_Init       0x1008'34fd   0x1e4  Code  Gb  cy_tcpwm_pwm.o [43]
+Cy_Tcpwm_TriggerStart   0x1008'3707     0xc  Code  Gb  cy_tcpwm.o [43]
+Cy_u32StartupStackEndAddress
+                        0x1008'9c70          Data  Gb  startup_cm7.o [31]
+Cy_u32StartupStackStartAddress
+                        0x1008'9c6c          Data  Gb  startup_cm7.o [31]
+DebugMon_Handler        0x1008'a085          Code  Wk  startup_cm7.o [31]
+HEAP_STACK$$Base        0x2807'e000           --   Gb  - Linker created -
+HEAP_STACK$$Limit       0x2808'0000           --   Gb  - Linker created -
+HardFault_Handler       0x1008'9e29          Code  Wk  startup_cm7.o [31]
+InitRamEcc              0x1008'87e3   0x100  Code  Lc  startup.o [31]
+InitRamEccClearArea     0x1008'88e3    0x12  Code  Lc  startup.o [31]
+MemManage_Handler       0x1008'a079          Code  Wk  startup_cm7.o [31]
+NMI_Handler             0x1008'a075          Code  Wk  startup_cm7.o [31]
+PID_Positional_Calculate
+                        0x1008'9175   0x124  Code  Gb  PID.o [5]
+PID_Positional_Init     0x1008'912d    0x46  Code  Gb  PID.o [5]
+PendSV_Handler          0x1008'a089          Code  Wk  startup_cm7.o [31]
+Quaternion_GetEuler     0x1008'7f53    0x14  Code  Gb  Quaternion.o [5]
+Quaternion_Init         0x1008'7d61    0x40  Code  Gb  Quaternion.o [5]
+Quaternion_Update       0x1008'7da1   0x1b2  Code  Gb  Quaternion.o [5]
+Region$$Table$$Base     0x1008'9e08           --   Gb  - Linker created -
+Region$$Table$$Limit    0x1008'9e28           --   Gb  - Linker created -
+Reset_Handler           0x1008'9bc5          Code  Wk  startup_cm7.o [31]
+SVC_Handler             0x1008'9ef1          Code  Wk  startup_cm7.o [31]
+Startup_Init            0x1008'8755    0x8e  Code  Gb  startup.o [31]
+SysTick_Handler         0x1008'a08d          Code  Wk  startup_cm7.o [31]
+SystemCoreClock         0x2802'0da8     0x4  Data  Gb  system_tviibh4m_cm7.o [22]
+SystemCoreClockUpdate   0x1008'89b5    0x94  Code  Gb  system_tviibh4m_cm7.o [22]
+SystemInit              0x1008'8959    0x5c  Code  Gb  system_tviibh4m_cm7.o [22]
+UsageFault_Handler      0x1008'a081          Code  Wk  startup_cm7.o [31]
+_PrintfTiny             0x1008'47fd   0x124  Code  Gb  xprintftiny.o [50]
+_SProut                 0x1008'3713     0xa  Code  Gb  xsprout.o [50]
+__NVIC_ClearPendingIRQ  0x1008'9311    0x1c  Code  Lc  cy_interrupt_map.o [23]
+__NVIC_ClearPendingIRQ  0x1008'41d1    0x1c  Code  Lc  zf_common_interrupt.o [46]
+__NVIC_EnableIRQ        0x1008'41b5    0x1c  Code  Lc  zf_common_interrupt.o [46]
+__NVIC_SetPriority      0x1008'41ed    0x24  Code  Lc  zf_common_interrupt.o [46]
+__Vectors               0x1008'0000           --   Gb  startup_cm7.o [31]
+__Vectors_End           0x1008'0080          Data  Gb  startup_cm7.o [31]
+__Vectors_Size {Abs}           0x80           --   Gb  startup_cm7.o [31]
+__aeabi_ldiv0           0x1008'4aa9          Code  Gb  I64DivZer.o [52]
+__aeabi_memclr4         0x1008'4299          Code  Gb  ABImemclr4.o [52]
+__aeabi_memcpy          0x1008'4921          Code  Gb  ABImemcpy.o [52]
+__aeabi_memcpy4         0x1008'4941          Code  Gb  ABImemcpy.o [52]
+__aeabi_memcpy8         0x1008'4941          Code  Gb  ABImemcpy.o [52]
+__aeabi_memset          0x1008'3285          Code  Gb  ABImemset.o [52]
+__aeabi_uldivmod        0x1008'42a1          Code  Gb  I64DivMod.o [52]
+__cmain                 0x1008'9e71          Code  Gb  cmain.o [52]
+__ecc_init_dtcm_end_address {Abs}
+                        0x2000'3fff          Data  Gb  <internal module>
+__ecc_init_dtcm_start_address {Abs}
+                        0x2000'0000          Data  Gb  <internal module>
+__ecc_init_itcm_end_address {Abs}
+                             0x3fff          Data  Gb  <internal module>
+__ecc_init_itcm_start_address {Abs}
+                                0x0          Data  Gb  <internal module>
+__ecc_init_sram_end_address {Abs}
+                        0x2807'ffff          Data  Gb  <internal module>
+__ecc_init_sram_start_address {Abs}
+                        0x2802'0000          Data  Gb  <internal module>
+__exit                  0x1008'9ea5    0x14  Code  Gb  exit.o [53]
+__iar_Memset            0x1008'3285          Code  Gb  ABImemset.o [52]
+__iar_Memset4_word      0x1008'4a75          Code  Gb  ABImemset48.o [52]
+__iar_Memset8_word      0x1008'4a75          Code  Gb  ABImemset48.o [52]
+__iar_Memset_word       0x1008'328d          Code  Gb  ABImemset.o [52]
+__iar_asin32            0x1008'8095          Code  Gb  asinf.o [51]
+__iar_atan2_32          0x1008'8029          Code  Gb  atan2f.o [51]
+__iar_data_init3        0x1008'9dbd    0x28  Code  Gb  data_init.o [52]
+__iar_init_vfp          0x1008'9de5          Code  Gb  fpinit_M.o [51]
+__iar_lz77_init_single3
+                        0x1008'32eb    0x7e  Code  Gb  lz77_init_single.o [52]
+__iar_program_start     0x1008'9f0d          Code  Gb  cstartup_M.o [52]
+__iar_round32           0x1008'9d01          Code  Gb  roundf.o [51]
+__iar_vfp___iar_round32
+                        0x1008'9cf1          Code  Gb  roundf.o [51]
+__iar_vfp_roundf        0x1008'9cf1          Code  Gb  roundf.o [51]
+__iar_xatanf            0x1008'80f1          Code  Gb  xatanf.o [51]
+__iar_zero_init3        0x1008'9d85    0x38  Code  Gb  zero_init3.o [52]
+__low_level_init        0x1008'9e91          Code  Gb  startup_cm7.o [31]
+__ramVectors            0x2802'0e00          Data  Gb  startup_cm7.o [31]
+__vector_table          0x1008'0000          Data  Gb  startup_cm7.o [31]
+__vector_table_0x1c     0x1008'001c          Data  Gb  startup_cm7.o [31]
+_call_main              0x1008'9e7d          Code  Gb  cmain.o [52]
+_exit                   0x1008'9e99          Code  Gb  cexit.o [52]
+abs                     0x1008'7d29     0x8  Code  Wk  abs.o [50]
+accelerometerOffset     0x2802'0d70     0xc  Data  Gb  Attitude.o [5]
+adc_convert             0x1008'929d    0x6c  Code  Gb  zf_driver_adc.o [49]
+adc_resolution          0x2802'0bac    0x48  Data  Lc  zf_driver_adc.o [49]
+ahrs                    0x2802'073c    0x4c  Data  Gb  Quaternion.o [5]
+alpha                   0x2802'06f0     0x4  Data  Gb  filter.o [5]
+angle                   0x2802'0d88     0xc  Data  Gb  Quaternion.o [5]
+angle_control           0x2802'0d94     0x4  Data  Gb  control.o [5]
+ascii_font_6x8          0x1008'852c   0x228  Data  Gb  zf_common_font.o [46]
+ascii_font_8x16         0x1008'7098   0x5f0  Data  Gb  zf_common_font.o [46]
+asinf                   0x1008'8095          Code  Gb  asinf.o [51]
+assert_interrupt_config
+                        0x1008'4249     0xc  Code  Gb  zf_common_interrupt.o [46]
+atan2f                  0x1008'8029          Code  Gb  atan2f.o [51]
+attitude_zero           0x2802'0d98     0x4  Data  Gb  control.o [5]
+balance_pid_init        0x1008'8db9    0x68  Code  Gb  control.o [5]
+balance_pitch_angle     0x2802'0c70    0x3c  Data  Gb  control.o [5]
+balance_pitch_g         0x2802'0c34    0x3c  Data  Gb  control.o [5]
+clock_init              0x1008'9d69    0x16  Code  Gb  zf_common_clock.o [46]
+control_balance         0x1008'8e21    0x66  Code  Gb  control.o [5]
+control_balance::sys_times
+                        0x2802'0d9c     0x4  Data  Lc  control.o [5]
+control_data            0x2802'0cac    0x20  Data  Gb  control.o [5]
+cs_pin_save             0x2802'0dcc     0x4  Data  Gb  zf_driver_spi.o [49]
+cy_assertFileName       0x2802'0cfc    0x18  Data  Gb  cy_syslib.o [36]
+cy_assertLine           0x2802'0da0     0x4  Data  Gb  cy_syslib.o [36]
+cy_delay32kMs           0x2802'0db8     0x4  Data  Gb  system_tviibh4m_cm7.o [22]
+cy_delayFreqHz          0x2802'0dac     0x4  Data  Gb  system_tviibh4m_cm7.o [22]
+cy_delayFreqKhz         0x2802'0db0     0x4  Data  Gb  system_tviibh4m_cm7.o [22]
+cy_delayFreqMhz         0x2802'0db4     0x4  Data  Gb  system_tviibh4m_cm7.o [22]
+cy_faultFrame           0x2802'0b3c    0x70  Data  Gb  cy_syslib.o [36]
+debug_assert_handler    0x1008'315f    0x3c  Code  Gb  zf_common_debug.o [46]
+debug_assert_handler::assert_nest_index
+                        0x2802'0ddf     0x1  Data  Lc  zf_common_debug.o [46]
+debug_delay             0x1008'2e41    0x36  Code  Lc  zf_common_debug.o [46]
+debug_info_init         0x1008'3205    0x18  Code  Gb  zf_common_debug.o [46]
+debug_init              0x1008'321d    0x2a  Code  Gb  zf_common_debug.o [46]
+debug_interrupr_handler
+                        0x1008'313f    0x20  Code  Gb  zf_common_debug.o [46]
+debug_log_handler       0x1008'319b    0x20  Code  Gb  zf_common_debug.o [46]
+debug_output            0x1008'2e83   0x2bc  Code  Lc  zf_common_debug.o [46]
+debug_output_info       0x2802'0d40    0x14  Data  Lc  zf_common_debug.o [46]
+debug_output_init       0x1008'31db    0x2a  Code  Gb  zf_common_debug.o [46]
+debug_output_struct_init
+                        0x1008'31bb    0x20  Code  Gb  zf_common_debug.o [46]
+debug_uart_buffer       0x2802'0bf4    0x40  Data  Gb  zf_common_debug.o [46]
+debug_uart_data         0x2802'0dde     0x1  Data  Gb  zf_common_debug.o [46]
+debug_uart_fifo         0x2802'0d14    0x18  Data  Gb  zf_common_debug.o [46]
+debug_uart_str_output   0x1008'2e77     0xc  Code  Lc  zf_common_debug.o [46]
+delay_clk               0x2802'081c     0x2  Data  Lc  zf_driver_delay.o [49]
+divNumLocator           0x1008'9fd8     0x8  Data  Gb  cy_sysclk.o [33]
+exit                    0x1008'9e95     0x4  Code  Gb  exit.o [50]
+fifo_head_offset        0x1008'3fbd    0x1a  Code  Lc  zf_common_fifo.o [46]
+fifo_init               0x1008'4177    0x3a  Code  Gb  zf_common_fifo.o [46]
+fifo_write_buffer       0x1008'3fd7   0x1a0  Code  Gb  zf_common_fifo.o [46]
+filter_FirstOrderLowPassFilter
+                        0x1008'7f95    0x1c  Code  Gb  filter.o [5]
+filter_KalmanFilter     0x1008'7fb5    0x72  Code  Gb  filter.o [5]
+get_pwm_ch              0x1008'28c9   0x368  Code  Lc  zf_driver_pwm.o [49]
+get_pwm_pin             0x1008'21ef   0x368  Code  Lc  zf_driver_pwm.o [49]
+get_pwm_pin_hsiom       0x1008'2557   0x36a  Code  Lc  zf_driver_pwm.o [49]
+get_scb_module          0x1008'3a7b    0x44  Code  Gb  zf_driver_uart.o [49]
+get_uart_config         0x1008'392f   0x14c  Code  Lc  zf_driver_uart.o [49]
+gpio_get_level          0x1008'61b3    0x22  Code  Gb  zf_driver_gpio.o [49]
+gpio_init               0x1008'61d5    0x88  Code  Gb  zf_driver_gpio.o [49]
+gpio_set_level          0x1008'616f    0x44  Code  Gb  zf_driver_gpio.o [49]
+gyroscopeOffset         0x2802'0d64     0xc  Data  Gb  Attitude.o [5]
+imu660ra_acc_x          0x2802'0dd6     0x2  Data  Gb  zf_device_imu660ra.o [48]
+imu660ra_acc_y          0x2802'0dd8     0x2  Data  Gb  zf_device_imu660ra.o [48]
+imu660ra_acc_z          0x2802'0dda     0x2  Data  Gb  zf_device_imu660ra.o [48]
+imu660ra_check_stable   0x1008'7689    0xa8  Code  Lc  Attitude.o [5]
+imu660ra_config_file    0x1008'0080  0x2000  Data  Gb  zf_device_config.o [54]
+imu660ra_get_acc        0x1008'7b9f    0x3e  Code  Gb  zf_device_imu660ra.o [48]
+imu660ra_get_gyro       0x1008'7bdd    0x3e  Code  Gb  zf_device_imu660ra.o [48]
+imu660ra_gyro_x         0x2802'0dd0     0x2  Data  Gb  zf_device_imu660ra.o [48]
+imu660ra_gyro_y         0x2802'0dd2     0x2  Data  Gb  zf_device_imu660ra.o [48]
+imu660ra_gyro_z         0x2802'0dd4     0x2  Data  Gb  zf_device_imu660ra.o [48]
+imu660ra_init           0x1008'7c1b    0xd0  Code  Gb  zf_device_imu660ra.o [48]
+imu660ra_read_register  0x1008'7b0d    0x26  Code  Lc  zf_device_imu660ra.o [48]
+imu660ra_read_registers
+                        0x1008'7b33    0x3a  Code  Lc  zf_device_imu660ra.o [48]
+imu660ra_self_check     0x1008'7b6d    0x32  Code  Lc  zf_device_imu660ra.o [48]
+imu660ra_transition_factor
+                        0x2802'0788     0x8  Data  Gb  zf_device_imu660ra.o [48]
+imu660ra_write_register
+                        0x1008'7ad1    0x1e  Code  Lc  zf_device_imu660ra.o [48]
+imu660ra_write_registers
+                        0x1008'7aef    0x1e  Code  Lc  zf_device_imu660ra.o [48]
+imu_get_bias            0x1008'7731   0x182  Code  Gb  Attitude.o [5]
+imudata                 0x2802'0ccc    0x18  Data  Gb  Attitude.o [5]
+intFreqInitialized      0x2802'0ddc     0x1  Data  Gb  cy_sysclk.o [33]
+internalBaseFreqInfo    0x2802'0ce4    0x18  Data  Gb  cy_sysclk.o [33]
+interrupt_global_disable
+                        0x1008'4221    0x14  Code  Gb  zf_common_interrupt.o [46]
+interrupt_global_enable
+                        0x1008'4211    0x10  Code  Gb  zf_common_interrupt.o [46]
+interrupt_global_flag   0x2802'0dc0     0x4  Data  Lc  zf_common_interrupt.o [46]
+interrupt_init          0x1008'4261    0x36  Code  Gb  zf_common_interrupt.o [46]
+interrupt_set_priority  0x1008'4255     0xc  Code  Gb  zf_common_interrupt.o [46]
+invSqrt                 0x1008'7d31    0x30  Code  Lc  Quaternion.o [5]
+key_index               0x1008'a070     0x4  Data  Lc  zf_device_key.o [48]
+key_init                0x1008'8d57    0x4a  Code  Gb  zf_device_key.o [48]
+key_press_time          0x2802'0d54    0x10  Data  Lc  zf_device_key.o [48]
+key_scanner             0x1008'8cb9    0x9e  Code  Gb  zf_device_key.o [48]
+key_state               0x2802'0dc8     0x4  Data  Lc  zf_device_key.o [48]
+kfs1                    0x2802'06f4    0x48  Data  Gb  filter.o [5]
+last_gyroscope          0x2802'0d7c     0xc  Data  Gb  Attitude.o [5]
+main                    0x1008'9d29    0x40  Code  Gb  main_cm7_0.o [45]
+motor_control           0x1008'90b9    0x66  Code  Gb  small_driver_uart_control.o [5]
+motor_value             0x2802'0d2c    0x14  Data  Gb  small_driver_uart_control.o [5]
+out                     0x1008'47e5    0x18  Code  Lc  xprintftiny.o [50]
+pit0_ch0_isr            0x1008'8ad9     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch10_isr           0x1008'8aff     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch11_isr           0x1008'8b09     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch12_isr           0x1008'8b13     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch13_isr           0x1008'8b1d     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch14_isr           0x1008'8b27     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch15_isr           0x1008'8b31     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch16_isr           0x1008'8b3b     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch17_isr           0x1008'8b45     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch18_isr           0x1008'8b4f     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch19_isr           0x1008'8b59     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch1_isr            0x1008'8ae3    0x12  Code  Gb  cm7_0_isr.o [45]
+pit0_ch20_isr           0x1008'8b63     0xa  Code  Gb  cm7_0_isr.o [45]
+pit0_ch21_isr           0x1008'8b6d     0xe  Code  Gb  cm7_0_isr.o [45]
+pit0_ch2_isr            0x1008'8af5     0xa  Code  Gb  cm7_0_isr.o [45]
+pit_init                0x1008'8329   0x1ee  Code  Gb  zf_driver_pit.o [49]
+pit_isr_flag_clear      0x1008'82ff    0x2a  Code  Gb  zf_driver_pit.o [49]
+pit_isr_func            0x2802'07a0    0x3c  Data  Gb  zf_driver_pit.o [49]
+pwm_all_channel_close   0x1008'2c31    0x1a  Code  Gb  zf_driver_pwm.o [49]
+pwm_init                0x1008'2c4b   0x1e4  Code  Gb  zf_driver_pwm.o [49]
+roundf                  0x1008'9d01          Code  Gb  roundf.o [51]
+sar_adc                 0x2802'0794     0xc  Data  Lc  zf_driver_adc.o [49]
+scanner_period          0x2802'0dc4     0x4  Data  Lc  zf_device_key.o [48]
+scb_module              0x2802'0800    0x14  Data  Gb  zf_driver_uart.o [49]
+servo_init              0x1008'9c75    0x78  Code  Gb  vmc.o [5]
+small_driver_get_speed  0x1008'9035    0x2a  Code  Gb  small_driver_uart_control.o [5]
+small_driver_init       0x1008'905f    0x2e  Code  Gb  small_driver_uart_control.o [5]
+small_driver_set_duty   0x1008'8ff3    0x42  Code  Gb  small_driver_uart_control.o [5]
+small_driver_uart_init  0x1008'908d    0x2a  Code  Gb  small_driver_uart_control.o [5]
+spi_get_clk_hsiom       0x1008'4da9    0x28  Code  Lc  zf_driver_spi.o [49]
+spi_get_clk_pin         0x1008'4ced    0x28  Code  Lc  zf_driver_spi.o [49]
+spi_get_cs_hsiom        0x1008'4e21    0x44  Code  Lc  zf_driver_spi.o [49]
+spi_get_cs_pin          0x1008'4d65    0x44  Code  Lc  zf_driver_spi.o [49]
+spi_get_miso_hsiom      0x1008'4df9    0x28  Code  Lc  zf_driver_spi.o [49]
+spi_get_miso_pin        0x1008'4d3d    0x28  Code  Lc  zf_driver_spi.o [49]
+spi_get_mosi_hsiom      0x1008'4dd1    0x28  Code  Lc  zf_driver_spi.o [49]
+spi_get_mosi_pin        0x1008'4d15    0x28  Code  Lc  zf_driver_spi.o [49]
+spi_init                0x1008'53c5   0x28e  Code  Gb  zf_driver_spi.o [49]
+spi_module              0x2802'07dc    0x10  Data  Gb  zf_driver_spi.o [49]
+spi_read_8bit_registers
+                        0x1008'52d1    0xe2  Code  Gb  zf_driver_spi.o [49]
+spi_write_16bit_array   0x1008'504b    0xb6  Code  Gb  zf_driver_spi.o [49]
+spi_write_8bit          0x1008'4fa1    0xaa  Code  Gb  zf_driver_spi.o [49]
+spi_write_8bit_register
+                        0x1008'5101    0xde  Code  Gb  zf_driver_spi.o [49]
+spi_write_8bit_registers
+                        0x1008'51df    0xe8  Code  Gb  zf_driver_spi.o [49]
+sprintf                 0x1008'3f7d    0x40  Code  Gb  sprintf.o [50]
+strlen                  0x1008'3f45          Code  Gb  strlen.o [52]
+strncpy                 0x1008'6f7d          Code  Gb  strncpy.o [52]
+switch_transition_length
+                        0x1008'4e65   0x13c  Code  Lc  zf_driver_spi.o [49]
+system_clock            0x2802'0dbc     0x4  Data  Gb  zf_common_clock.o [46]
+system_delay_init       0x1008'6423    0xa6  Code  Gb  zf_driver_delay.o [49]
+system_delay_ms         0x1008'63c5    0x5e  Code  Gb  zf_driver_delay.o [49]
+tft180_bgcolor          0x2802'081a     0x2  Data  Lc  zf_device_tft180.o [48]
+tft180_clear            0x1008'5a41    0x72  Code  Gb  zf_device_tft180.o [48]
+tft180_debug_init       0x1008'59d7    0x68  Code  Lc  zf_device_tft180.o [48]
+tft180_display_dir      0x2802'0de0     0x1  Data  Lc  zf_device_tft180.o [48]
+tft180_display_font     0x2802'081f     0x1  Data  Lc  zf_device_tft180.o [48]
+tft180_height_max       0x2802'0816     0x2  Data  Gb  zf_device_tft180.o [48]
+tft180_init             0x1008'5dd5   0x35a  Code  Gb  zf_device_tft180.o [48]
+tft180_pencolor         0x2802'0818     0x2  Data  Lc  zf_device_tft180.o [48]
+tft180_set_color        0x1008'5aed     0xe  Code  Gb  zf_device_tft180.o [48]
+tft180_set_dir          0x1008'5ab3    0x3a  Code  Gb  zf_device_tft180.o [48]
+tft180_set_region       0x1008'5877   0x160  Code  Lc  zf_device_tft180.o [48]
+tft180_show_char        0x1008'5afb   0x1f4  Code  Gb  zf_device_tft180.o [48]
+tft180_show_string      0x1008'5cf1    0xaa  Code  Gb  zf_device_tft180.o [48]
+tft180_width_max        0x2802'0814     0x2  Data  Gb  zf_device_tft180.o [48]
+tft180_write_index      0x1008'5859    0x1e  Code  Lc  zf_device_tft180.o [48]
+timer_ch                0x2802'0820     0x1  Data  Lc  zf_driver_delay.o [49]
+tsl1401_collect_pit_handler
+                        0x1008'8ec5    0x68  Code  Gb  zf_device_tsl1401.o [48]
+tsl1401_data            0x2802'0824   0x200  Data  Gb  zf_device_tsl1401.o [48]
+tsl1401_finish_flag     0x2802'0de2     0x1  Data  Gb  zf_device_tsl1401.o [48]
+tsl1401_init_state      0x2802'0de1     0x1  Data  Lc  zf_device_tsl1401.o [48]
+type_default_callback   0x1008'a0b1     0x2  Code  Lc  zf_device_type.o [48]
+uart0_isr               0x1008'8b7b    0x40  Code  Gb  cm7_0_isr.o [45]
+uart1_isr               0x1008'8bbb    0x42  Code  Gb  cm7_0_isr.o [45]
+uart2_isr               0x1008'8c01    0x40  Code  Gb  cm7_0_isr.o [45]
+uart3_isr               0x1008'8c41    0x3c  Code  Gb  cm7_0_isr.o [45]
+uart4_isr               0x1008'8c7d    0x3c  Code  Gb  cm7_0_isr.o [45]
+uart_context            0x2802'0a24   0x118  Data  Gb  zf_driver_uart.o [49]
+uart_control_callback   0x1008'8f41    0xb2  Code  Gb  small_driver_uart_control.o [5]
+uart_init               0x1008'3d6d   0x190  Code  Gb  zf_driver_uart.o [49]
+uart_isr_func           0x2802'07ec    0x14  Data  Gb  zf_driver_uart.o [49]
+uart_query_byte         0x1008'3b21    0x32  Code  Gb  zf_driver_uart.o [49]
+uart_rx_interrupt       0x1008'3c6f    0xfe  Code  Gb  zf_driver_uart.o [49]
+uart_tx_interrupt       0x1008'3b53   0x11c  Code  Gb  zf_driver_uart.o [49]
+uart_write_buffer       0x1008'3ae7    0x1e  Code  Gb  zf_driver_uart.o [49]
+uart_write_byte         0x1008'3abf    0x28  Code  Gb  zf_driver_uart.o [49]
+uart_write_string       0x1008'3b05    0x1c  Code  Gb  zf_driver_uart.o [49]
+wireless_module_uart_handler
+                        0x2802'0790     0x4  Data  Gb  zf_device_type.o [48]
+yaw_integral_rad        0x2802'0da4     0x4  Data  Lc  Quaternion.o [5]
+zf_debug_assert_enable  0x2802'081e     0x1  Data  Lc  zf_common_debug.o [46]
+zf_debug_init_flag      0x2802'0ddd     0x1  Data  Lc  zf_common_debug.o [46]
+
+
+[1] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\adc_11722776235721520015.dir
+[2] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\audioss_1346650047966882938.dir
+[3] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\button_4990804375159372270.dir
+[4] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\canfd_1800690984773873875.dir
+[5] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\code_17896468042025673432.dir
+[6] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\cpu_15938736945165268644.dir
+[7] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\crypto_1190170608956581615.dir
+[8] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\dma_12106025507578611576.dir
+[9] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\eth_phy_18133017486186456677.dir
+[10] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\ethernet_6029839089178797009.dir
+[11] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\evtgen_3404189088603873129.dir
+[12] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\flash_8529866181315662935.dir
+[13] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\flash_864493325053435817.dir
+[14] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\gpio_3999404635324069351.dir
+[15] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\ipc_10145506163450686023.dir
+[16] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\lin_18429031207028094880.dir
+[17] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\lvd_6353935867039560245.dir
+[18] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\mcwdt_4052485907822033969.dir
+[19] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\mpu_5663187252346826382.dir
+[20] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\power_14453085144426420577.dir
+[21] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\prot_10722960861768657883.dir
+[22] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\rev_b_4986922561640112550.dir
+[23] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\rev_b_6162237342861132223.dir
+[24] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\scb_15490842639181808494.dir
+[25] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sd_host_2982766354293506895.dir
+[26] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\semihosting_143864889731838620.dir
+[27] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smartio_5451710003740070188.dir
+[28] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_427648126384146252.dir
+[29] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\smif_mem_6470536964353725183.dir
+[30] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\srom_13018798572330080582.dir
+[31] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\startup_479057977785470282.dir
+[32] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sw_timer_4215635015939382130.dir
+[33] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysclk_16149231235676103872.dir
+[34] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysflt_12293435975120599261.dir
+[35] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysint_7435970359207984181.dir
+[36] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\syslib_16330585751512546975.dir
+[37] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\syspm_10887939769544754770.dir
+[38] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysreghc_17676636058511625587.dir
+[39] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysreset_14586141425677365288.dir
+[40] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\sysrtc_10747768817563771611.dir
+[41] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\systick_16016591671695740695.dir
+[42] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\syswdt_9118657615806274156.dir
+[43] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\tcpwm_422923530147891246.dir
+[44] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\trigmux_9729677290734583340.dir
+[45] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\user_8514941877209965082.dir
+[46] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_common_1201165462030747823.dir
+[47] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_components_14936052685886095442.dir
+[48] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_device_6570275422786408770.dir
+[49] = E:\motor\CYT2BL3_Brushless_Driver_Project-master1\CYT2BL3_Brushless_Driver_Project-master\E06_CYT4BB7\Seekfree_CYT4BB_Opensource_Library1\project\iar\Debug_m7_0\Obj\zf_driver_11922370083829174090.dir
+[50] = dl7M_tln.a
+[51] = m7M_tlv.a
+[52] = rt7M_tl.a
+[53] = shb_l.a
+[54] = zf_device_config.a
+
+  28'642 bytes of readonly  code memory
+  12'718 bytes of readonly  data memory
+  11'872 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
