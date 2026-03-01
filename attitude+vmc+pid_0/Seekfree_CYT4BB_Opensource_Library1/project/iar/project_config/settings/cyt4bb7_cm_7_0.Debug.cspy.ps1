@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\IAR9.40.1\common\bin\cspybat" -f "E:\WheelLegCart_21\attitude+vmc+pid0\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\settings\cyt4bb7_cm_7_0.Debug.general.xcl" --backend -f "E:\WheelLegCart_21\attitude+vmc+pid0\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\settings\cyt4bb7_cm_7_0.Debug.driver.xcl" 
+& "D:\IAR9.40.1\common\bin\cspybat" -f "E:\WheelLegCart_21\wheel-leg-car_21\attitude+vmc+pid_0\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\settings\cyt4bb7_cm_7_0.Debug.general.xcl" --backend -f "E:\WheelLegCart_21\wheel-leg-car_21\attitude+vmc+pid_0\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\settings\cyt4bb7_cm_7_0.Debug.driver.xcl" 
 }
 else
 {
-& "D:\IAR9.40.1\common\bin\cspybat" -f "E:\WheelLegCart_21\attitude+vmc+pid0\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\settings\cyt4bb7_cm_7_0.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\WheelLegCart_21\attitude+vmc+pid0\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\settings\cyt4bb7_cm_7_0.Debug.driver.xcl" 
+& "D:\IAR9.40.1\common\bin\cspybat" -f "E:\WheelLegCart_21\wheel-leg-car_21\attitude+vmc+pid_0\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\settings\cyt4bb7_cm_7_0.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\WheelLegCart_21\wheel-leg-car_21\attitude+vmc+pid_0\Seekfree_CYT4BB_Opensource_Library1\project\iar\project_config\settings\cyt4bb7_cm_7_0.Debug.driver.xcl" 
 }
