@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>C:\Users\ZhuanZ\Desktop\Basic function debug\Seekfree_CYT4BB7_Motivation_2\project\iar\project_config\Debug_m7_0\Exe\cyt4bb7_cm_7_0.out</Path>
+            <Output>
+                <Path>C:\Users\ZhuanZ\Desktop\Basic function debug\Seekfree_CYT4BB7_Motivation_2\project\iar\Debug_m7_0\List\cyt4bb7_cm_7_0.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>C:\Users\ZhuanZ\Desktop\Basic function debug\Seekfree_CYT4BB7_Motivation_1\project\iar\project_config\Debug_m7_0\Exe\cyt4bb7_cm_7_0.out</Path>
+            <Output>
+                <Path>C:\Users\ZhuanZ\Desktop\Basic function debug\Seekfree_CYT4BB7_Motivation_1\project\iar\Debug_m7_0\List\cyt4bb7_cm_7_0.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>E:\WheelLegCart_21\wheelleg_smartcar\Seekfree_CYT4BB7_Motivation_1\project\iar\project_config\Debug_m7_0\Exe\cyt4bb7_cm_7_0.out</Path>
+            <Output>
+                <Path>E:\WheelLegCart_21\wheelleg_smartcar\Seekfree_CYT4BB7_Motivation_1\project\iar\Debug_m7_0\List\cyt4bb7_cm_7_0.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>
