@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "cmath": "c",
+        "compare": "c",
+        "concepts": "c",
+        "exception": "c",
+        "type_traits": "c",
+        "limits": "c",
+        "*.tcc": "c",
+        "typeinfo": "c",
+        "posture_control.h": "c",
+        "system_control.h": "c",
+        "zf_common_headfile.h": "c",
+        "turn.h": "c"
+    }
+}
